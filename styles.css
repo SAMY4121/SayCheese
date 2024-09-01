@@ -1,0 +1,147 @@
+/* Grundläggande styling för hela sidan */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url('background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    font-size: 18px; /* Ökad grundtextstorlek för hela sidan */
+}
+
+header {
+    background: rgba(0, 0, 0, 0.8); /* Mörk bakgrund med högre transparens */
+    color: #fff;
+    padding: 15px 0; /* Ökat padding */
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    height: 60px; /* Justera storlek på logotypen */
+    margin-right: 15px; /* Ökat avstånd mellan logotyp och text */
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 36px; /* Ökad storlek på rubriken */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 20px; /* Ökat avstånd mellan navigeringslänkar */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px; /* Ökad storlek på navigeringslänkar */
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 80vh; /* Justerbar beroende på din design */
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Halvtransparent svart bakgrund för textkontrast */
+}
+
+.hero-content {
+    max-width: 600px;
+    color: #fff;
+}
+
+.hero-content h2 {
+    font-size: 50px; /* Ökad storlek på huvudrubrik */
+}
+
+.hero-content p {
+    font-size: 24px; /* Ökad storlek på textparagrafer */
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px; /* Ökat padding för knappar */
+    color: #fff;
+    background: #e74c3c; /* En livlig färg för knappar */
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 20px; /* Ökad storlek på text i knappar */
+}
+
+.info, .gallery, .contact {
+    padding: 80px 20px; /* Ökat padding */
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7); /* Mörk bakgrund för bättre läsbarhet */
+    color: #fff; /* Vit text för kontrast */
+    border-radius: 8px;
+    border: 2px solid #e74c3c; /* Röd ram för att framhäva sektionerna */
+    margin: 20px auto; /* Centrera sektionerna och ge lite utrymme mellan dem */
+    max-width: 800px;
+}
+
+.info-content, .gallery-content, .contact-content {
+    margin: 0 auto;
+}
+
+.info-content h2, .gallery-content h2, .contact-content h2 {
+    font-size: 36px; /* Ökad storlek på rubriker i sektioner */
+}
+
+.info-content p, .gallery-content p, .contact-content p {
+    font-size: 20px; /* Ökad storlek på textparagrafer i sektioner */
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.8); /* Mörk bakgrund med högre transparens */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer p {
+    font-size: 20px; /* Ökad storlek på text i footer */
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px; /* Ökat avstånd mellan sociala medier-länkar */
+    font-size: 20px; /* Ökad storlek på sociala medier-länkar */
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
